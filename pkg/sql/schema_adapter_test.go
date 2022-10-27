@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill-sql/pkg/sql"
 	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/grafov/watermill-sql/pkg/sql"
 )
 
 // TestDefaultMySQLSchema checks if the SQL schema defined in DefaultMySQLSchema is correctly executed
